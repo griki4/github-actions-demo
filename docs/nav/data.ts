@@ -71,6 +71,12 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         icon: '/logo.png',
+        title: '个人博客（阿里云服务器版本）',
+        desc: '部署在阿里云服务器的博客网站（跟这个网站一样的，鲁迅家门前的另一棵枣树）',
+        link: 'http://xiacl.top'
+      },
+      {
+        icon: '/logo.png',
         title: '仿蘑菇街商城项目',
         desc: '我的第一个前端项目',
         link: 'http://mall.xiacl.top'
