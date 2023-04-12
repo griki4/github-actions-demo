@@ -36,8 +36,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-fe-nav' }],
 
     footer: {
-      message: `<a href=\'http://beian.miit.gov.cn\/\'>渝ICP备2023003035号</a><br>
-                本站的模板来自 <a href='https://github.com/maomao1996/vitepress-fe-nav'>maomao大佬</a>`,
+      message: `本站的模板来自 <a href='https://github.com/maomao1996/vitepress-fe-nav'>maomao大佬</a>`,
       copyright: 'Copyright © 2019-present maomao',
     },
 
