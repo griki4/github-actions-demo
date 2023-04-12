@@ -1,39 +1,28 @@
 {
-  "name": "action-demo",
-  "version": "0.1.0",
+  "name": "vitepress-fe-nav",
+  "version": "1.0.0",
+  "description": "基于 VitePress 打造个人前端导航网站",
   "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vitepress dev docs --port=8732",
+    "build": "vitepress build docs"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maomao1996/vitepress-fe-nav.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "maomao1996 <1714487678@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maomao1996/vitepress-fe-nav/issues"
   },
-  "homepage": "https://griki4.github.io/github-actions-demo"
+  "homepage": "https://griki4.github.io/github-actions-demo",
+  "devDependencies": {
+    "@femm/prettier": "^1.0.1",
+    "@mdit-vue/shared": "^0.12.0",
+    "sass": "^1.58.3",
+    "vitepress": "1.0.0-alpha.48",
+    "vue": "^3.2.47"
+  },
+  "prettier": "@femm/prettier"
 }
