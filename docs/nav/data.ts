@@ -555,7 +555,6 @@ export const NAV_DATA: NavData[] = [
       },
       {
         title: '博客园',
-        // icon: 'https://common.cnblogs.com/favicon.ico',
         icon: '/icons/cnblogs.svg',
         desc: '博客园是一个面向开发者的知识分享社区',
         link: 'https://www.cnblogs.com'
@@ -565,6 +564,12 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
         link: 'https://juejin.cn'
+      },
+      {
+        title: '牛客',
+        icon: '/icons/niuke.png',
+        desc: '大学生求职交流园地',
+        link: 'https://www.nowcoder.com/'
       }
     ]
   },
