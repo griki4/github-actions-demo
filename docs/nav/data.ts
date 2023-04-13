@@ -521,6 +521,12 @@ export const NAV_DATA: NavData[] = [
         title: '力扣',
         desc: '不懂算法还相当程序员？',
         link: 'https://leetcode.cn/'
+      },
+      {
+        icon: '/icons/xiaolin.png',
+        title: '小林coding',
+        desc: '计算机基础补课',
+        link: 'https://xiaolincoding.com/'
       }
     ]
   },
