@@ -33,10 +33,10 @@ export default defineConfig({
       label: '本页目录'
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-fe-nav' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/griki4' }],
 
     footer: {
-      message: `本站的模板来自 <a href='https://github.com/maomao1996/vitepress-fe-nav'>maomao大佬</a>`,
+      message: `本站的模板来自 <a href='https://github.com/maomao1996/vitepress-fe-nav'>maomao</a>`,
       copyright: 'Copyright © 2019-present maomao',
     },
 
