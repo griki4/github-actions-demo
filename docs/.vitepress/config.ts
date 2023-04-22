@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
-  base: '/github-actions-demo/',
+  base: '/nav-website/',
   outDir: '../dist',
 
   lang: 'zh-CN',
